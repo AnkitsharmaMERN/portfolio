@@ -1,0 +1,70 @@
+.ServiceContainer{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.Serviceheading_1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+    
+}
+
+.cardcontainer{
+    /* border: 1px solid black; */
+    display: grid;
+    margin: auto;
+    width: 85%;
+    height: 100%;
+    grid-template-rows: 60% 60%;
+}
+.row{
+    display:flex ;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+}
+
+.Card{
+    /* border: 1px solid black; */
+    width: 300px;
+    height:80%;
+    margin: auto;
+   
+}
+.Serviceicon{
+    /* border: 1px solid black; */
+    font-size: 80px;
+    margin: 5% 35% 0 35%;
+}
+.ServiceHeading3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.Servicepara{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: gray;
+font-size: medium;
+text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .ServiceContainer{
+        width: 80%;
+       }
+    .cardcontainer{
+        width: 95%;
+       }
+}
+
+@media screen and (max-width:550px) {
+    .ServiceContainer{
+        width: 100%;
+       }
+    .cardcontainer{
+        width: 100%;
+       }
+       .row{
+        flex-direction: column;
+        }
+}

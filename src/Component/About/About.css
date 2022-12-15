@@ -1,0 +1,171 @@
+.AboutContainer {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+}
+
+.AboutLeftContainer {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 500px;
+    margin: 5% 3% 0 3%;
+    /* margin-top: 20px; */
+}
+
+.AboutImage {
+
+    width: 100%;
+    height: 100%;
+}
+
+.Aboutheading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.Aboutheading_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+
+}
+
+.Subject {
+    /* margin: 10px 0 0 0; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bar_line {
+    position: relative;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.barInner_line {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(1, 179, 250);
+    height: 10px;
+}
+
+.HTML {
+    width: 95%;
+}
+
+.CSS {
+    width: 90%;
+}
+
+.JavaScript {
+    width: 80%;
+}
+
+.MERN {
+    width: 70%;
+}
+
+.NETWORKING {
+    width: 85%;
+}
+
+.SERVER {
+    width: 75%;
+}
+
+.barInner_line p {
+    position: absolute;
+    background-color: rgb(3, 179, 248);
+    padding: 2px 5px;
+    top: -45px;
+    right: 0;
+}
+
+.Aboutbtn {
+    background-color: rgb(1, 170, 236);
+    margin-top: 30px;
+    width: 30%;
+    height: 10%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.AboutRightContainer {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 550px;
+    margin: 0 3% 0 1%;
+}
+
+
+/* Animation css */
+
+.barInner_line{
+    position: absolute;
+    /* background-color: rgb(1, 179, 250); */
+    height: 10px;
+    animation-name: Innerbar;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .AboutLeftContainer {
+        width: 40%;
+        margin: 10% 3% 0 3%;
+       }
+       .Aboutbtn {
+        width: 40%;
+       }
+    }
+
+@media screen and (max-width:768px) {
+    .AboutContainer {
+        width: 100%;
+       }
+   
+   
+    .AboutLeftContainer {
+        width: 45%;
+        margin: 20% 3% 0 3%;
+       }
+
+}
+@media screen and (max-width:550px) {
+    .AboutContainer {
+        width: 100%;
+        flex-direction: column;
+       }
+   
+   
+    .AboutLeftContainer {
+        width: 95%;
+        margin: 2%;
+       }
+
+       .AboutRightContainer {
+        width: 90%;
+        margin: 10px 1% 0 1%;
+    }
+
+       
+
+}
+
+@keyframes Innerbar {
+    0% {
+       width: 0%;
+    }
+
+    100% {
+       opacity: 1;
+    }
+}
