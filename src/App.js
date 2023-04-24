@@ -9,7 +9,6 @@ import Portfolio from './Component/Portfolio/Portfolio';
 
 
 
-
 function App() {
   return (
   <>

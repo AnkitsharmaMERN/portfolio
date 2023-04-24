@@ -23,7 +23,7 @@ const Services = () => {
                             <i class="fa-brands fa-react Serviceicon"></i>
                             </span>
                         <h3 className='ServiceHeading3'>Web Devlopment</h3>
-                        <p className='Servicepara'>The front-end use HTML5,CSS3, React.js jQuery and Bootstrap to build a single page web app that communicate with back-end via REST-ful API.
+                        <p className='Servicepara'>The front-end use HTML5,CSS3,Javascript React.js MaterialUI and Bootstrap to build a single page web app that communicate with back-end Node,Express,Mongodb via REST-ful API.
                         </p>
                     </div>
                     <div className='Card'>

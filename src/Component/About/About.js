@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='AboutContainer'>
             <div className='AboutLeftContainer'>
-                <img className='AboutImage' src='./pictures/person-doing-digital-survey-flat-icon-vector.webp' />
+                <img className='AboutImage' alt='img' src='./pictures/person-doing-digital-survey-flat-icon-vector.webp' />
             </div>
             <div className='AboutRightContainer'>
                 <h1 className='Aboutheading_1'>My Bio-Data</h1>
@@ -65,7 +65,9 @@ const About = () => {
                             </p>
                         </span>
                 </div>
+                <a target='blank' href='https://drive.google.com/file/d/11tnwPsJD7T-RUfPW04Cukf8YpVEGjz8V/view?usp=sharing'>
                 <button type='button' className='Aboutbtn'>Download cv</button>
+                </a>
 
             </div>
 
